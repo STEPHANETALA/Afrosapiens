@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#58d2eb ;
+}
+#header{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+     align-items: center;
+     background-color: aqua;
+    gap: 10px;
+    padding: 20px;
+ 
+}
+.entete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo{
+  width: 5vw;
+  height: 10vh;
+  border-radius: 20px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: rgb(240, 144, 144);  */
+    border-radius: 20px;
+}
+.whatapp-button{}
+
+
+#sect{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    /* background-color: rgb(240, 144, 144); */
+    width: 90VW;
+    height: 45vh;
+    /* justify-content: center; */
+    padding: 30px;
+    margin: 30px;
+    font-size: x-large;
+}
+#sect1{
+    padding: 20px;
+    width: 90%;
+     /* background-color: saddlebrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+  
+}
+section{display: flex;
+    flex-direction: column;
+    gap: 10px;
+align-items: center;
+    justify-content: center;
+margin: 40px;}
+
+#sect2{
+    /* background-color: seagreen; */
+    padding: 20px;
+    width: 90%;
+    height: 100vh;
+
+}
+#interview{
+    margin: 10px;
+    padding: 10px;
+     width: 80%;
+    height: 90vh;
+    
+}
+#sect3{
+    /* background-color: slateblue; */
+ padding: 19px;
+ width: 90%;
+ height: 45%;
+}
+#foot{
+font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 144, 144);
+    height: 10vh;
+    gap: 10px;
+    padding: 20px;
+}
